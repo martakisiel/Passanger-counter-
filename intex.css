@@ -1,10 +1,29 @@
 body {
-    background-color: rgb(188, 186, 186);
+    background-color: rgb(0, 0, 0);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    justify-content: center;
+    display: flex;
+  
 }
 
+.bgContainer{
+    max-width: 800px;
+    max-height: auto;
+    /* opacity: 0.4; */
+    background-position: left center;
+    padding: 50px 50px 60px 50px;
+    background-image: url(https://lh3.googleusercontent.com/5IKO0ce23oD66qKxMwrv0HUzy0vnX02T3q5chuP_7SGSTxFfchpb8NH99sEb77Z3iAR_sdmhXFfw_j7QzE_qrLtHnA1lF8P4zrq-UTquWdguSqqEjvgBFSa7ztTJhdC6UVaaPfdmgRDZ0nPiLRxPmkj9HUrwpJtVZth9WRdHSeTKo6tyziU-UiFApX7pHDEGUGY8a-KYGxbFTLtzn6DTLPlS72OY6AChQkwiriIG5tXcJU9hB3Z9nNLbqD07JJjE_RTYtpl5n8mQPcYlUp7u5R8OrELXxkUBwKKHZQKo37T4fIfCRXmjpGpUnkyLaExJhAorg90RdOV2ytc3JL2nwdUFPPGl8lbfwk8GoOYm28VJQ_JrpoSBn299Nt7vuJ4FM-Jg05qUkYSbuiA1Forp0ATaRJpOfstoHcOV2AbhbirbvuTWNKWc1s3xnarXsxc9CrHn6aPxdlgMePYNgyDUVH8uOKzcB0rXwkUDrSsJ3fRIu1BYkM8evluXmanvA49pVsQKiriD0PaSCjxRla84YmeSyR7QJqIHV7RbckQqYLURa5lNK1H3d7j5zgSnVRvToW-cAq5QdQZJWs3lk5u9MJzl7H4oldccDvQT61XtVYCuX5lvc9U68asDWQfrq1lZgHbR4ZFN07oeAhqinuKkPOAnuPZLjm-kG2U-wVbZPclpfJp9FrSqG8bLWVZzFo3zsN1sK7Y5VWoDAOaTvYFS1ken0hvB9sx1A046p0twm5ZBroaakWD8v1HCPW70vX0FKHF0Bnvb59rsstw8MvBnjavjrN_OcVh0XbCqc9tNXexxJ7D1YR3zwu9hpS8C53vkxZenOpSWvimNnF_UtbcSOjuVyGaTy3w6-9vkJslEofSCrE4k2k78rJJVQwAq-pDXPPMExBRxcgwvYmn9B37FcpY8bHMXTqnnjoltFySr86OlpgiyVbDy6Uud3ob837kyGYnL-qA-g1FLNrXktURQyRcMrqm8Fb0a6ui_HAdr9ztnBNm2x9EY_N4=w1024-h683-s-no?authuser=0);
+}
+
+.textContainer{
+color:rgb(255, 255, 255)
+}
+p{
+    background-color: aliceblue;
+    color: black;
+}
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
